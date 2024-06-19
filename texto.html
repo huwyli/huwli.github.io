@@ -9,19 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="icon.ico">
     <title>Te amo</title>
-
-    <script type="text/javascript">
-        window.onload = function () {
-            var audio = document.getElementById("music");
-            audio.volume = 0.05;
-        }
-    </script>
-
 </head>
 <body>
-    <audio id="music" preload="auto" autoplay>
-        <source src="g.mp3" type="audio/mpeg">
-    </audio>
     <div class="corpo">
         <div class="titulo">
             <h1 class="titan-one-regular">Para Carol[inda]</h1>
@@ -38,6 +27,11 @@
         </div>
         <div class="gif">
             <img src="giphy.webp" alt="Beijo Disney" height="250" width="300">
+        </div>
+        <div class="audio">
+            <audio preload="auto" controls>
+                <source src="g.mp3" type="audio/mpeg">
+            </audio>
         </div>
     </div>
 </body>
