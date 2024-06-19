@@ -22,9 +22,15 @@ html {
     width: 80%;
     margin: 5%;
     text-align: justify;
-    span {
+    p {
         color: #f1ddba;
+        line-height: 25px;
     }
+}
+
+.assinatura {
+    text-align: right;
+    color: #40223c;
 }
 
 .corpo {
